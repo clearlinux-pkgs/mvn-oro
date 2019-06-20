@@ -4,7 +4,7 @@
 #
 Name     : mvn-oro
 Version  : 2.0.8
-Release  : 1
+Release  : 2
 URL      : https://repo1.maven.org/maven2/oro/oro/2.0.8/oro-2.0.8.jar
 Source0  : https://repo1.maven.org/maven2/oro/oro/2.0.8/oro-2.0.8.jar
 Source1  : https://repo1.maven.org/maven2/oro/oro/2.0.8/oro-2.0.8.pom
@@ -29,11 +29,11 @@ data components for the mvn-oro package.
 %build
 
 %install
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/oro/o/2.0.8
-cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/oro/o/2.0.8
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/oro/oro/2.0.8
+cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/oro/oro/2.0.8
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/oro/o/2.0.8
-cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/oro/o/2.0.8
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/oro/oro/2.0.8
+cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/oro/oro/2.0.8
 
 
 %files
@@ -41,5 +41,5 @@ cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/oro/o/2.0.8
 
 %files data
 %defattr(-,root,root,-)
-/usr/share/java/.m2/repository/oro/o/2.0.8/oro-2.0.8.jar
-/usr/share/java/.m2/repository/oro/o/2.0.8/oro-2.0.8.pom
+/usr/share/java/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar
+/usr/share/java/.m2/repository/oro/oro/2.0.8/oro-2.0.8.pom
