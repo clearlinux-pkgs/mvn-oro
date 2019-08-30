@@ -4,7 +4,7 @@
 #
 Name     : mvn-oro
 Version  : 2.0.8
-Release  : 2
+Release  : 3
 URL      : https://repo1.maven.org/maven2/oro/oro/2.0.8/oro-2.0.8.jar
 Source0  : https://repo1.maven.org/maven2/oro/oro/2.0.8/oro-2.0.8.jar
 Source1  : https://repo1.maven.org/maven2/oro/oro/2.0.8/oro-2.0.8.pom
